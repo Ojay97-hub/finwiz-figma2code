@@ -14,7 +14,7 @@ const items: Array<{ key: Active; label: string; icon: React.ComponentType<any>;
   { key: 'borrow', label: 'Borrow', icon: Sprout, href: '#/borrow' },
   { key: 'invest', label: 'Invest', icon: Ticket, href: '#/invest' },
   { key: 'account', label: 'Account', icon: User, href: '#/account' },
-  { key: 'chat', label: 'Chat', icon: MessageCircle },
+  { key: 'chat', label: 'Chat', icon: MessageCircle, href: '#/chat' },
 ]
 
 const TopTabs: React.FC<TopTabsProps> = ({ active }) => {

@@ -5,6 +5,7 @@ import AccountsOverview from './components/AccountsOverview';
 import BorrowDashboard from './components/BorrowDashboard';
 import InvestDashboard from './components/InvestDashboard';
 import AccountDashboard from './components/AccountDashboard';
+import ChatDashboard from './components/ChatDashboard';
 
 function App() {
   const [route, setRoute] = useState<string>(() => window.location.hash || '#/insights')
@@ -21,6 +22,7 @@ function App() {
   else if (route.startsWith('#/borrow')) page = <BorrowDashboard />
   else if (route.startsWith('#/invest')) page = <InvestDashboard />
   else if (route.startsWith('#/account')) page = <AccountDashboard />
+  else if (route.startsWith('#/chat')) page = <ChatDashboard />
   else page = <BankingDashboard />
 
   return (
