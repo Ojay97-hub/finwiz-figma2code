@@ -13,7 +13,7 @@ const items: Array<{ key: Active; label: string; icon: React.ComponentType<any>;
   { key: 'insights', label: 'Insights', icon: BarChart3, href: '#/insights' },
   { key: 'borrow', label: 'Borrow', icon: Sprout, href: '#/borrow' },
   { key: 'invest', label: 'Invest', icon: Ticket, href: '#/invest' },
-  { key: 'account', label: 'Account', icon: User },
+  { key: 'account', label: 'Account', icon: User, href: '#/account' },
   { key: 'chat', label: 'Chat', icon: MessageCircle },
 ]
 
